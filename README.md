@@ -1,6 +1,7 @@
-what is Reactjs :-
+what is Reactjs:-
 
 js library :- allow  reusable component and manage state 
+
 
 1. component based :- reusable component make development easier
 2. virtual dom :- improve performance 

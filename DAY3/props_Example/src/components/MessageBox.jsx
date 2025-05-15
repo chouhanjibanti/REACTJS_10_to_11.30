@@ -1,22 +1,22 @@
 import React from 'react'
 
-function MessageBox({name , color , age}) {
+function MessageBox({name,color1,age}) {
   return (
-   <>
-   <h1 style={{color :color}}>Hello my name is, {name} and my age is {age}</h1>
-   </>
+       <>
+       <h1 style={{color : color1}}>my name is {name} and my age is {age}</h1>
+       </>
   )
 }
+export default MessageBox
 
-// export default MessageBox
 
+// import React from 'react'
 
-// example of default props
-// function MessageBox({name="kritanshu" , color= "blue"}) {
+// function MessageBox({name="diksha",color1="blue"}) {
 //   return (
-//    <h1 style={{color: color}}>Hy ,{name}</h1>
+//           <h1 style={{color : color1}}>my name is {name} </h1>
+
 //   )
 // }
 
-export default MessageBox
-
+// export default MessageBox
