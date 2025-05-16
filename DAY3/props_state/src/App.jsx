@@ -1,5 +1,5 @@
 // import React from "react";
-// import StateChildComponent from "./components/StateChildComponent";
+import StateChildComponent from "./components/StateChildComponent";
 
 // function App() {
 //   return (
@@ -39,7 +39,8 @@ function App() {
     >
       <h1>social media app</h1>
       <DarkModeButton darkMode={darkMode} onToggle={toggleTheme} />
-      <DarkModeContent darkMode={darkMode}/>
+      <DarkModeContent darkMode={darkMode} />
+  
     </div>
   );
 }
