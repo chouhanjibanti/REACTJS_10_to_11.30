@@ -54,3 +54,19 @@ modern                             js
 simple and lightweight              heavy 
 
 
+
+controlled and uncontrolled react component 
+
+
+
+html form and react form
+
+html form -> change 
+react -> js functionality onclick
+
+
+id and class
+id -> css   -> demo demo getElement
+class -> css
+
+
