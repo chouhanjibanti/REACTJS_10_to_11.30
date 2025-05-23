@@ -54,10 +54,7 @@ modern                             js
 simple and lightweight              heavy 
 
 
-
 controlled and uncontrolled react component 
-
-
 
 html form and react form
 
@@ -70,3 +67,6 @@ id -> css   -> demo demo getElement
 class -> css
 
 
+useSate :- state 
+
+follower / like 
