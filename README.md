@@ -70,3 +70,12 @@ class -> css
 useSate :- state 
 
 follower / like 
+
+
+
+
+mouting -> load/ render once
+
+upating -> re -render 
+
+unmouting -> destroy
