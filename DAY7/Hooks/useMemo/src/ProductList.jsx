@@ -7,7 +7,6 @@ const ProductList = ({ products, filters }) => {
     console.log("Filtering products");
     return products.filter((product) => product.price <= filters.maxPrice);
   }, [products, filters.maxPrice]);
-
   return (
     <div
       style={{
