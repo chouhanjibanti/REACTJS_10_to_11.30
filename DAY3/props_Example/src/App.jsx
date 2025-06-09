@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MessageBox from "./components/MessageBox";
+// import MessageBox from "./components/MessageBox";
 import MessageBox1 from "./components/MessageBox1";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <input
         type="text"
         placeholder="Enter your name"
-        value={name} // kritanshu
+        value={name} // debugshala
         // update state
         onChange={(e) => setName(e.target.value)}
       />

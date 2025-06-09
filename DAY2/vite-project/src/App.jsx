@@ -1,7 +1,7 @@
 import React from "react"; // rfce
 import Product from "./components/Product";
 import MultipleProduct from "./components/MultipleProduct";
-// import Home from "./components/Home";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -10,10 +10,7 @@ function App() {
       {/* <Home/> */}
       {/* <Product/> */}
 
-      <MultipleProduct/>
-       
-
-
+      <MultipleProduct />
     </>
   );
 }

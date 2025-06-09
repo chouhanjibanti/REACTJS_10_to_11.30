@@ -1,12 +1,12 @@
-import React from 'react'
-import Child2 from './Child2'
+import React from "react";
+import Child2 from "./Child2";
 
-function Child1({name}) {
+function Child1({ name }) {
   return (
     <>
-   <Child2 name={name}/>
+      <Child2 name={name} />
     </>
-  )
+  );
 }
 
-export default Child1
+export default Child1;

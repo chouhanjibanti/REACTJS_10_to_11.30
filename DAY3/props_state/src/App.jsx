@@ -40,7 +40,6 @@ function App() {
       <h1>social media app</h1>
       <DarkModeButton darkMode={darkMode} onToggle={toggleTheme} />
       <DarkModeContent darkMode={darkMode} />
-  
     </div>
   );
 }

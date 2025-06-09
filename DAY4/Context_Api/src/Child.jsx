@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import { dataContext } from './App'
 // import { useContext } from 'react'
 
@@ -12,21 +12,21 @@ import React from 'react'
 //   )
 // }
 
+// second way
 function Child() {
-   
   return (
-  <>
-   <dataContext.Consumer>
-    {function name1(name){
-        return(
+    <>
+      <dataContext.Consumer>
+        {function name1(name) {
+          return (
             <>
-            <h1>{name}</h1>
+              <h1>{name}</h1>
             </>
-        )
-    }}
-   </dataContext.Consumer>
-  </>
-  )
+          );
+        }}
+      </dataContext.Consumer>
+    </>
+  );
 }
 
-export default Child
+export default Child;
