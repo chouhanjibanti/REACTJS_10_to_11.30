@@ -62,3 +62,18 @@ const xyz = meselector(selector: Function, equalityên?: Function)
 
 =============================================================
 
+rest operator and spread operator 
+
+spread operator ->   list -> a   b   c
+                        add  D->   ...list -> a b c D
+
+
+rest operator -> function demo(arg1 , arg2 , arg3, ...rest){
+    clg(arg1) // jay
+    clg(arg2) // raja
+    clg(arg3)  // gautam
+}
+demo(jay, raja , gautam , diskha , hwdb, wdjeh,iufgb,wbgfb,wfdhb,wbdb,efhb)
+
+
+npm install redux react-redux 

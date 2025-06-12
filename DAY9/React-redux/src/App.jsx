@@ -6,7 +6,7 @@ import store from "./reduxContainer/Store";
 function App() {
   return (
     <>
-      <Provider store={store}>
+      <Provider store={store}> 
         <BookContainer />
       </Provider>
     </>

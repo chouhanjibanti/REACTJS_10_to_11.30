@@ -13,3 +13,5 @@ const BookAction = () => {
 };
 
 export default BookAction;
+// rafce - shortcut for the arrow type function
+// rfce - shorcut for the function declaration 

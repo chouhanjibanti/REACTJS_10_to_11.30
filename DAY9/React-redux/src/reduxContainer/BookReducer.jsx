@@ -7,11 +7,11 @@ const initialState = {
 };
 
 const BookReducer = (state = initialState, action) => {
-  switch (action.type) {
+  switch (action.type) { // buy_Book
     case buy_Book:
       return {
         ...state,
-        NumberOfBooks: state.NumberOfBooks - 1,
+        NumberOfBooks: state.NumberOfBooks - 1, // 20-1 = 19   19-1 =18 
       };
     default:
       return state;
